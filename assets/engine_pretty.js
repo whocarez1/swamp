@@ -24665,7 +24665,8 @@ function SWAM() {
             function Xt(Zt) {
                 if (zt) {
                     let Qt = jt[Zt.id];
-                    Qt || (Qt = new PIXI.Graphics, Qt.clear(), Qt.beginFill(16711680, .125), Qt.drawCircle(0, 0, Vt), Qt.endFill(), jt[Zt.id] = Qt, game.graphics.layers.groundobjects.addChild(Qt)), Qt.position.set(Zt.lowResPos.x, Zt.lowResPos.y), Qt.renderable = Zt.removedFromMap || 1 != game.myType && 4 != game.myType || 5 != Zt.type || Zt.team == Players.getMe().team || Zt.hidden || Zt.render && !Zt.stealthed ? !1 : !0
+                    // Qt || (Qt = new PIXI.Graphics, Qt.clear(), Qt.beginFill(16711680, .125), Qt.drawCircle(0, 0, Vt), Qt.endFill(), jt[Zt.id] = Qt, game.graphics.layers.groundobjects.addChild(Qt)), Qt.position.set(Zt.lowResPos.x, Zt.lowResPos.y), Qt.renderable = Zt.removedFromMap || 1 != game.myType && 4 != game.myType || 5 != Zt.type || Zt.team == Players.getMe().team || Zt.hidden || Zt.render && !Zt.stealthed ? !1 : !0
+                    Qt || (Qt = new PIXI.Graphics, Qt.clear(), Qt.beginFill(16711680, .125), Qt.drawCircle(0, 0, Vt), Qt.endFill(), jt[Zt.id] = Qt, game.graphics.layers.groundobjects.addChild(Qt)), Qt.position.set(Zt.lowResPos.x, Zt.lowResPos.y), Qt.renderable = Zt.removedFromMap || 5 != Zt.type || Zt.team == Players.getMe().team || Zt.hidden || Zt.render && !Zt.stealthed ? !1 : !0
                 }
             }
 
@@ -24675,7 +24676,8 @@ function SWAM() {
                 if (Kt.hide(), !!zt)
                     for (var Jt in Zt) {
                         var $t = Players.get(Jt);
-                        if ((1 == game.myType || 4 == game.myType) && 5 == $t.type && $t.team != Qt.team) {
+                        // if ((1 == game.myType || 4 == game.myType) && 5 == $t.type && $t.team != Qt.team) {
+                        if (5 == $t.type && $t.team != Qt.team) {
                             var en = Tools.distance($t.lowResPos.x, $t.lowResPos.y, Qt.pos.x, Qt.pos.y);
                             en < Vt && Kt.show()
                         }

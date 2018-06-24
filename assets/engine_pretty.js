@@ -24418,14 +24418,15 @@ function SWAM() {
                 if (Bt.id != game.myID && !window.anonmod) {
                     let Vt = "starma.sh" === location.hostname.toLowerCase() ? "SM" : "AM",
                         qt = SWAM.getThemeFunction().themeName;
-                    Network.sendWhisper(Bt.id, `-SWAM-PONG ${Vt} ${qt}`)
+                    //Network.sendWhisper(Bt.id, `-SWAM-PONG ${Vt} ${qt}`)
+                    Network.sendWhisper(Bt.id, `pong 1 ${Vt} ${qt}`)
                 }
                 return void UI_addChatLine.call(UI, Bt, Xt, Gt)
             }
             if (2 == Gt && Bt.id != game.myID && Xt.startsWith("-SWAM-PONG")) {
                 let Vt = zt.substr(11, 2).trim(),
                     qt = zt.substring(14).trim();
-                UI_addChatLine.call(UI, Bt, `I'm using STARMASH, ${Vt}, theme: ${qt}`, Gt)
+                UI_addChatLine.call(UI, Bt, `pong 2, ${Vt}, theme: ${qt}`, Gt)
             }
         }
     };

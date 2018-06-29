@@ -24425,7 +24425,7 @@ function SWAM() {
             if (2 == Gt && Bt.id != game.myID && Xt.startsWith("-SWAM-PONG")) {
                 let Vt = zt.substr(11, 2).trim(),
                     qt = zt.substring(14).trim();
-                // UI_addChatLine.call(UI, Bt, `pong 2, ${Vt}, theme: ${qt}`, Gt)
+                UI_addChatLine.call(UI, Bt, `pong 2, ${Vt}, theme: ${qt}`, Gt)
             }
         }
     };

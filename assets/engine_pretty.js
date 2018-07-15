@@ -1,4 +1,4 @@
-?"use strict";
+"use strict";
 !function(Bt, Xt) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = Bt.document ? Xt(Bt, !0) : function(Gt) {
         if (!Gt.document)

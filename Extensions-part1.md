@@ -242,6 +242,8 @@ The following table contains the current list of events triggered by StarMash, a
 |CTF_FlagEvent          |event, team, verb  |A flag was taken/returned/captured.|
 |BTR_MatchEnded         |data               |A BTR Match ended.|
 |                       |                   |                   |
+|spectate               |id                 |The user is spectating a player.|
+|                       |                   |                   |
 |playerAdded            |player             |A new player joined.|
 |playerDestroyed        |player             |A player left the game.|
 |playerReteamed         |data               |A player changed teams.|
@@ -253,6 +255,7 @@ The following table contains the current list of events triggered by StarMash, a
 |playerStealth          |data               |A player changed its stealth.|
 |playerChangedType      |data               |A player changed its plane type.|
 |playerChangedFlag      |data               |A player changed its flag.|
+|playerSay              |data               |A player said something using a chat bubble.|
 |                       |                   |                   |
 |mobAdded               |data, existing, playerId       |A new mob is created.|
 |mobDespawned           |data               |A mob is despawned.|

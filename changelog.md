@@ -5,6 +5,67 @@
 <br>
 <br>
 
+## Sep 30 2018
+- Emotes in chat! Just write: e.g. -poo-
+
+&nbsp;
+
+## Sep 29 2018
+- New ending screen for CTF.
+- Fireworks now spawn in winner's base.
+- Flag Returned events are now logged in the full Game Log window.
+- Radio panels and Game Log can now be closed with `ESC` key.
+
+&nbsp;
+
+## Sep 28 2018
+- Fireworks!  When a CTF match ends, a fireworks show begins!
+
+&nbsp;
+
+## Sep 24 2018
+- 57 new emotes!
+- Chat command: `/take` sends `-tblue-` or `-tred-` emotes depending on the user's team.
+- `-cap-`, `-burn-` and `-take-` now work from customized radio messages (C panel).
+- Spam blocker for bot messages.
+
+&nbsp;
+
+## Sep 18 2018
+- Wave effect after CTF's match ending. The world is ours!
+- New chat input commands:<br>
+  `/cap` sends -redcap- or -bluecap- emotes depending on the user's team.<br>
+  `/burn` sends -redfire- or -bluefire- emotes depending on the user's team.<br>
+  When chatting, sending just "shrug" sends ¯\_(ツ)_/¯.
+- 8 new emotes.
+- Minor bugs fixed.
+</ul>
+
+&nbsp;
+
+## Sep 17 2018
+- New Emotes panel now available.<br>
+  Press `F5` to open/close or `/emotes`.
+- New commands:<br>
+  `/reconnect` to reconnect. (handy for fast team switching).
+  `/name SomeName` to reconnect with SomeName as your new name.
+
+&nbsp;
+
+## Sep 13 2018
+- New Emotes!
+- Use `/emote` to list all the options.Can be used by anyone!
+- I'm open for suggestions!
+- Extensions: new `spectate` event.
+</ul>        
+
+&nbsp;
+
+## Ago 23 2018
+- Default Theme is now Realistic Sprites.
+
+&nbsp;
+
 ## Jun 15 2018
 - New Theme! World Cup Russia 2018: This is what happens when you let football invade Airmash!
 - Vamos Argentina! ⚽😁
